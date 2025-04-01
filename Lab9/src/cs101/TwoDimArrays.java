@@ -151,6 +151,46 @@ public class TwoDimArrays {
 	// you may use this function to print out results
 	public static void main(String[] args) {
 
+		double[][] arr = { { 2.0, 5.4, 4.6, 9.2, 7.9 }, { 3.0, 3.0 }, { 5.5, 5.3, 5.3 }, { 6.6, 6.6, 6.6, 6.6 } };
+
+		System.out.println("Problem A =========================");
+		System.out.println(Arrays.deepToString(a()));
+
+		System.out.println("\nProblem B =========================");
+		System.out.println(Arrays.deepToString(b()));
+
+		System.out.println("\nProblem C =========================");
+		System.out.println(Arrays.deepToString(c()));
+
+		System.out.println("\nProblem D =========================");
+		System.out.println(Arrays.deepToString(d()));
+
+		System.out.println("\nProblem E =========================");
+		System.out.println(e());
+
+		System.out.println("\nProblem F =========================");
+		System.out.println(f(arr));
+
+		System.out.println("\nProblem G =========================");
+		System.out.println(g(arr));
+
+		System.out.println("\nProblem H =========================");
+		System.out.println(h2(arr));
+
+		System.out.println("\nProblem H2 =========================");
+		System.out.println(h2(arr));
+
+		System.out.println("\nProblem I =========================");
+		System.out.println(Arrays.deepToString(i(2)));
+
+		System.out.println("\nProblem J =========================");
+		System.out.println(Arrays.deepToString(j()));
+
+		System.out.println("\nProblem J =========================");
+		int[][] foo = { { 0, 1 }, { 2, 4, 5 }, { 10 } };
+		int[][] bar = { { 7, 7 }, { 4, 4, 4 }, { 1 } };
+		System.out.println(Arrays.deepToString(k(foo, bar)));
+
 	}
 
 }
